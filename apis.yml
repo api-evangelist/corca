@@ -1,7 +1,18 @@
 aid: corca
 name: Corca
-description: Corca is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Corca is an AI-native, collaborative workspace for mathematics — a browser-based
+  editor that lets people write math naturally (without special syntax), run
+  calculations in real time, and collaborate the way teams do in Figma or Google
+  Docs. Typing keywords like "sum" or "integral" surfaces the right symbols and
+  functions, documents import from and export to LaTeX, and built-in AI helps solve
+  problems, manipulate expressions, and generate code without switching tools. It
+  is used for lab research, lecture creation, team knowledge bases, and publishing
+  academic work. Founded in 2023 and based in New York, Corca raised a $7.8M round
+  (led by NEA, with Bloomberg Beta, NVIDIA's NVentures, Daft Capital, Slow Ventures,
+  Liquid 2, Path Ventures, and Mana Ventures). The product is a consumer/team SaaS
+  application; no public developer API, SDK, or OpenAPI surface is published as of
+  this profile.
 url: https://raw.githubusercontent.com/api-evangelist/corca/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,31 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://corca.app/corca-og.png
 tags:
 - Company
+- Mathematics
+- Collaboration
+- Productivity
+- LaTeX
+- Editor
+- Artificial Intelligence
+- Research
+- Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://corca.io
+- type: Documentation
+  url: https://corca.app/doc
+- type: GettingStarted
+  url: https://corca.app/getting-started
+- type: TermsOfService
+  url: https://corca.app/tos
+- type: PrivacyPolicy
+  url: https://corca.app/privacy
+- type: Twitter
+  url: https://x.com/Corca_math
+- type: Bluesky
+  url: https://bsky.app/profile/corca.io
+- type: DomainSecurity
+  url: security/corca-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
